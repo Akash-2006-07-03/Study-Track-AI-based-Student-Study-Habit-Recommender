@@ -45,12 +45,7 @@ Each dataset contains details about:
 ---
 
 <h3>📸 Visualizations</h3>
-Include screenshots from your Colab notebook:
-- Boxplot for final grades (`G3_x`)
-- Histogram of grades
-- Study time vs final grade boxplot
-- Absences vs grade scatterplot
-- Correlation heatmap
+<h3>Boxplot for Final Grades</h3>
 
 ---
 
@@ -59,6 +54,7 @@ Include screenshots from your Colab notebook:
 ✅ Students with fewer absences perform better academically.  
 ✅ Final grades show a right-skewed distribution — most students score in the mid-range.  
 ✅ Parental education and support show moderate correlation with academic performance.
+
 
 
 
