@@ -46,6 +46,7 @@ Each dataset contains details about:
 
 <h3>📸 Visualizations</h3>
 <h3>Boxplot for Final Grades</h3>
+<img width="520" height="455" alt="image" src="https://github.com/user-attachments/assets/998e556e-8aef-427e-b3dc-599071cd8c55" />
 
 ---
 
@@ -54,6 +55,7 @@ Each dataset contains details about:
 ✅ Students with fewer absences perform better academically.  
 ✅ Final grades show a right-skewed distribution — most students score in the mid-range.  
 ✅ Parental education and support show moderate correlation with academic performance.
+
 
 
 
