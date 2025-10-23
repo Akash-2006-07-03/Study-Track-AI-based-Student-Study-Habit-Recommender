@@ -6,7 +6,7 @@ To perform data preprocessing and exploratory data analysis (EDA) on student per
 ---
 
 <h3>📂 Dataset Source</h3>
-The datasets are taken from the **UCI Machine Learning Repository**:
+The datasets are taken from the UCI Machine Learning Repository:
 - `student-mat.csv` – Math performance data  
 - `student-por.csv` – Portuguese performance data
 
@@ -37,10 +37,10 @@ Each dataset contains details about:
 ---
 
 <h3>💡 Key Findings / Insights</h3>
-- Students with **higher study time** achieve **better grades**.  
-- Students with **fewer absences** perform **better**.  
-- Grade distribution is **right-skewed** — most students score average.  
-- **Parental education** moderately influences student outcomes.
+- Students with higher study time achieve better grades.  
+- Students with fewer absences perform better.  
+- Grade distribution is right-skewed — most students score average.  
+- Parental education moderately influences student outcomes.
 
 ---
 
@@ -55,3 +55,4 @@ Include screenshots from your Colab notebook:
 ---
 
 ## 📁 Folder Structure
+
