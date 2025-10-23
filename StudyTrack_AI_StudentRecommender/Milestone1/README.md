@@ -54,5 +54,11 @@ Include screenshots from your Colab notebook:
 
 ---
 
-## 📁 Folder Structure
+<h3>💡 Key Insights</h3>
+✅ Students with higher study time generally achieve better grades.  
+✅ Students with fewer absences perform better academically.  
+✅ Final grades show a right-skewed distribution — most students score in the mid-range.  
+✅ Parental education and support show moderate correlation with academic performance.
+
+
 
