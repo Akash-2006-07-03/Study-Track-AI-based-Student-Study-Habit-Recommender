@@ -1,18 +1,11 @@
-Milestone 2 – Behavior Clustering & Pattern Detection
+<h3>Milestone 2 – Behavior Clustering & Pattern Detection</h3>
 
-🎯 Objective
+<h3>🎯 Objective</h3>
 Perform clustering on student behavioral data to identify groups of students with similar study habits and academic performance.
 
 ---
 
-🧩 Dataset Source
-- Dataset: `student-mat.csv`
-- Source: UCI Machine Learning Repository – Student Performance Data
-- This dataset contains attributes such as study time, absences, and grades (G1, G2, G3).
-
----
-
-⚙️ Steps Performed
+<h3>⚙️ Steps Performed</h3>
 1. Imported and cleaned the dataset.  
 2. Selected relevant numeric features: `studytime`, `absences`, and `G3`.  
 3. Standardized features using **StandardScaler**.  
@@ -23,12 +16,12 @@ Perform clustering on student behavioral data to identify groups of students wit
 
 ---
 
-🛠️ Tools & Libraries Used
+<h3>🛠️ Tools & Libraries Used</h3>
 - Python (pandas, numpy, scikit-learn, matplotlib, seaborn)
 
 ---
 
-📊 Key Insights
+<h3>📊 Key Insights</h3>
 ✅ Students with **higher study time** generally achieve **better grades**.  
 ✅ Students with **more absences** often fall into **lower performance clusters**.  
 ✅ The dataset reveals **three clear behavioral groups** — high performers, average students, and low performers.  
