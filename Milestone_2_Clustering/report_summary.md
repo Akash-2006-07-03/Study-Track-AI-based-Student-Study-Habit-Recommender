@@ -6,6 +6,7 @@ Perform clustering on student behavioral data to identify groups of students wit
 ---
 
 <h3>⚙️ Steps Performed</h3>
+
 1. Imported and cleaned the dataset.  
 2. Selected relevant numeric features: `studytime`, `absences`, and `G3`.  
 3. Standardized features using **StandardScaler**.  
@@ -22,7 +23,9 @@ Perform clustering on student behavioral data to identify groups of students wit
 ---
 
 <h3>📊 Key Insights</h3>
+
 ✅ Students with **higher study time** generally achieve **better grades**.  
 ✅ Students with **more absences** often fall into **lower performance clusters**.  
 ✅ The dataset reveals **three clear behavioral groups** — high performers, average students, and low performers.  
 ✅ Final grade (`G3`) is the strongest differentiator between clusters.
+
