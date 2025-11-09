@@ -1,31 +1,39 @@
-Objective
+
+
+## Objective
 Generate actionable study recommendations for students based on behavioral clusters identified in previous analyses.
 
-Dataset Source
-UCI Student Performance Data Set
-URL: https://archive.ics.uci.edu/ml/datasets/Student+Performance
+## Dataset Source
+**UCI Student Performance Dataset**  
+https://archive.ics.uci.edu/ml/datasets/Student+Performance
 
-Steps Followed
-Loaded and cleaned student data.
+## Steps Followed
+1. Loaded and cleaned the student dataset.
+2. Applied clustering (K-Means) to group students by study habits and performance.
+3. Mapped each cluster to meaningful study recommendations.
+4. Implemented a Python recommendation engine that assigns guidance based on ClusterID.
+5. Added two new columns to the dataset:
+   - `Recommendation`
+   - `Tool_or_Technique`
+6. Visualized the distribution of recommendations using a count plot.
 
-Applied clustering algorithm to create behavioral groups (ClusterID).
+## Tools Used
+- Google Colaboratory
+- Python  
+  - pandas  
+  - scikit-learn  
+  - seaborn  
+  - matplotlib  
 
-Mapped clusters to specific study improvement recommendations and resources.
+## Key Insights
+**Cluster 0:**  
+Students are consistent high performers. They are encouraged to maintain their current routine and may also lead peer study or tutoring sessions.
 
-Implemented a recommendation engine function in Python.
+**Cluster 1:**  
+Students benefit from increasing focused study hours, reducing absences, and using structured learning tools such as planners or online platforms.
 
-Added Recommendation and Tool_or_Technique columns to the dataset.
+**Cluster 2:**  
+Students should add weekly review sessions and use digital flashcards or planning tools to strengthen moderate study habits.
 
-Visualized recommendation distribution using a count plot.
-
-Tools Used
-Google Colaboratory, Python (pandas, scikit-learn, seaborn, matplotlib)
-
-Key Insights & Visualization
-Students in cluster 0 are consistently high performers and are encouraged to maintain their routines, with the option of leading advanced peer-study activities.
-
-Cluster 1 students benefit from focused study schedules, online learning tools, and absences reduction.
-
-Cluster 2 students are advised to add weekly review sessions and adopt digital flashcards or planning tools to improve moderate study habits.
-
-The visual count plot shows the distribution of students across recommendation types, revealing group sizes and targeted action needs.
+## Visualization
+The count plot shows how many students fall into each recommendation category, helping identify where the highest support needs exist.
