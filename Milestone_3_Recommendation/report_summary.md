@@ -34,6 +34,3 @@ Students benefit from increasing focused study hours, reducing absences, and usi
 
 **Cluster 2:**  
 Students should add weekly review sessions and use digital flashcards or planning tools to strengthen moderate study habits.
-
-## Visualization
-The count plot shows how many students fall into each recommendation category, helping identify where the highest support needs exist.
