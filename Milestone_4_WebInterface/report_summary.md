@@ -1,8 +1,8 @@
-🎯 Objective
+<h2>🎯 Objective</h2>
 
 To build an interactive student interface and admin panel inside a Jupyter Notebook with real-time database connectivity for logging study activities, managing records, and integrating recommendations into a functional workflow.
 
-📊 Dataset / Database Description
+<h2>📊 Dataset / Database Description</h2>
 
 This milestone uses a SQLite database created inside the notebook containing the following tables:
 
@@ -14,8 +14,8 @@ Additional fields added during integration: recommendations and related metadata
 
 The database is updated in real-time from the student panel and admin panel.
 
-🧱 Steps Followed
-1️⃣ Section 1 – Student Interface
+<h2>🧱 Steps Followed</h2>
+<h3>1️⃣ Section 1 – Student Interface</h3>
 
 Created an interactive input form for students using Python functions.
 
@@ -33,7 +33,7 @@ Data is directly inserted into the database.
 
 Confirmations are displayed after each submission.
 
-2️⃣ Section 2 – Admin Panel
+<h3>2️⃣ Section 2 – Admin Panel</h3>
 
 Built a secure login system for admins.
 
@@ -49,7 +49,7 @@ Delete logs
 
 All operations perform real-time CRUD actions on the database.
 
-3️⃣ Section 3 – Testing & Observations
+<h3>3️⃣ Section 3 – Testing & Observations</h3>
 
 Verified that:
 
@@ -61,7 +61,7 @@ Deleted logs are removed instantly.
 
 A count plot visualization was created to observe subject-wise study distribution.
 
-🛠️ Tools Used
+<h2>🛠️ Tools Used</h2>
 
 Google Colaboratory
 
@@ -77,7 +77,7 @@ seaborn
 
 Jupyter Notebook UI elements (input-based interfaces)
 
-💡 Key Insights
+<h2>💡 Key Insights</h2>
 
 The student interface successfully logs real-time study data and supports repeated usage.
 
